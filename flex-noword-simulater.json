@@ -1,0 +1,75 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1156445591333777408/image_395.png?ex=6514ff62&is=6513ade2&hm=b327b337a8dd79c666fe77eb2e2c9159dfcffb86a94b3735c89659c3aaeac242&"
+          },
+          {
+            "type": "text",
+            "text": "ไม่พบคำค้นหาที่พิมพ์เข้ามา",
+            "color": "#373737",
+            "weight": "bold",
+            "size": "20px",
+            "offsetTop": "8px"
+          }
+        ],
+        "justifyContent": "center",
+        "alignItems": "center",
+        "height": "140px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ท่านสามารถลองใช้การค้นหา",
+            "size": "16px",
+            "color": "#373737"
+          },
+          {
+            "type": "text",
+            "text": "แบบละเอียดโดยการคลิกที่",
+            "size": "16px",
+            "color": "#373737"
+          },
+          {
+            "type": "text",
+            "text": "การ์ดสีส้มทางขวา ➡️",
+            "size": "16px",
+            "color": "#373737"
+          }
+        ],
+        "justifyContent": "center",
+        "alignItems": "center",
+        "offsetTop": "8px"
+      }
+    ],
+    "justifyContent": "center",
+    "alignItems": "center"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "กลับหน้าหลัก",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "color": "#0057DD"
+      }
+    ]
+  }
+}
